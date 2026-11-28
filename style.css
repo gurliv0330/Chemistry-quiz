@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6b84f0;
+    color: #2d2930;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 2px;
+    padding: 17px;
+
+    
+}
+
+.quiz-box {
+    background-color: #713a91;
+    border: 2px dashed #6bb1c7;
+    border-radius: 16px;
+    padding: 32px 28px;
+    max-width: 540px;
+    width: 100%;
+    box-shadow: 0 10px 25px #11174dc2;
+
+}
+
+.hidden {
+    display: none;
+
+}
